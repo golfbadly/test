@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html>
+<title>DragProfile</title>
+<script src="js/jquery-1.10.2.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script>
+$(function(){
+
+$( "#menu" ).sortable();
+$( "#menu" ).disableSelection();
+
+$( "#top" ).draggable();
+$( "#content2").draggable();
+$( "#content3").draggable();
+$( "#content4").draggable();
+$( "#content5").draggable();
+});
+
+
+</script>
+
+<style>
+    body{background-color:#000000;
+
+	} 
+	#content{
+		 background-image: url("pic/bg.png");
+		 background-position: center top;
+		 background-repeat: repeat-y;
+		 height:7475px;
+		 width:100%; 
+		}	
+	   #content1{
+
+		     background-image: url("pic/bg_cnt1.png");	     
+	        	height: 1495px;
+		     width: 100%; 
+			}
+		#top {
+		        margin-top:75px; 
+			margin-left:106px;
+      		        color: #ffffff;
+                        font-size: 36px;
+                        left: 85px;
+   		        line-height: 30px;
+                        position: absolute;
+                        top: 70px;
+
+                     }
+        	#top strong {
+                             color: #00adee;
+                             font-weight: bold;
+                            }
+
+        	#ctn1_menu{
+			   height: 586px;
+			   margin-left: auto;
+			   margin-right: auto;
+			   position: relative;
+			   width: 975px;
+			  } 
+	/*		#ctn1_menu p {
+			              
+			             color: #ffffff;
+				     font-size: 36px;
+				     left: 85px;
+				     line-height: 30px;
+				     position: absolute;
+				     top: 70px;			
+
+				    }
+			     #ctn1_menu p strong {
+						 color: #00adee;
+						 font-weight: bold;
+						}
+	*/		       ul#menu {
+					    display: block;
+					    height: 586px;
+ 					    margin-left: auto;
+					    margin-right: auto;
+					    
+					    position: relative;
+					    width: 975px;
+					}	
+					ul#menu li{
+						background-repeat: no-repeat;
+						margin-top:200px; 
+						float: left;	
+					/*	display: block;
+						position: absolute;*/ 
+							}
+
+			
+					ul#menu li.m1 {
+					      background-color: #00adee;
+						    background-image: url("pic/g1.jpg");
+						    background-position: left center;
+						    height: 195px;
+						    left: 0;
+						    top: 260px;
+						    width: 390px;
+							}
+					
+					ul#menu li.m2 {
+						    background-color: #54c8f3;
+						    background-image: url("pic/g2.jpg");
+						    background-position: center bottom;
+						    height: 390px;
+						    left: 390px;
+						    top: 260px;
+						    width: 195px;
+							}
+
+					ul#menu li.m3 {
+						    background-color: #037ca9;
+						    background-image: url("pic/g3.jpg");
+						    background-position: center bottom;
+						    height: 390px;
+						    left: 585px;
+						    top: 65px;
+						    width: 195px;
+							}
+					ul#menu li.m4 {
+						    background-color: #93c5d8;
+						    background-image: url("pic/g4.jpg");
+						    background-position: center top;
+						    height: 390px;
+						    left: 780px;
+						    top: 65px;
+						    width: 195px;
+							}	
+
+ul#menu li.m1 a {
+    background-image: url("pic/flower.png");
+    background-position: center 62px;
+    float: right;
+}
+ul#menu li.m2 a {
+    background-image: url("pic/hand.png");
+    background-position: center 70px;
+}
+ul#menu li.m3 a {
+    background-image: url("pic/letter.png");
+    background-position: center 77px;
+}
+ul#menu li.m4 a {
+    background-image: url("pic/head.png");
+    background-position: center 68px;
+    margin-top: 195px; 
+}
+ul#menu li a {
+    background-repeat: no-repeat;
+    color: #eefafe;
+    display: block;
+    font-family: 'AreplosBookProBoldItalic';
+    font-size: 12px;
+    height: 83px;
+    padding-top: 113px;
+    text-align: center;
+    text-decoration: none; 
+    width: 195px;
+}
+	#content2{
+		background-image: url("pic/bg_cnt2.png");
+   	        background-position: center top;
+    		background-repeat: no-repeat;	
+		height: 1495px;
+   		 width: 100%; 
+		}
+		#ctn_about{
+                          margin-left: auto;
+                          margin-right: auto;
+                          margin-top: 65px;
+                          width: 975px;
+                          }
+			 ul#c2 {
+				    position: relative;
+					}  
+			 ol, ul {
+				    list-style: none outside none;
+				} 
+			 ul#c2 li{
+				  display: block;
+				  
+				  position: absolute;	
+				}	
+			 ul#c2 li.about {
+				background-image:url("pic/g1.jpg");
+               			 background-position: left top;
+                                background-repeat: no-repeat;
+                                height: 145px;
+                                left: 0;
+                                padding-left: 260px;
+                                padding-top: 50px; 
+                                top: 260px; 
+				
+				}	
+			 
+
+		#content3{
+		background-image: url("pic/bg_cnt2.png");
+   		 background-position: center top;
+   		 background-repeat: no-repeat;		
+		height: 1495px;
+   		 width: 100%;	
+		}
+		#ctn_see{
+			  margin-left: auto;
+   			  margin-right: auto;
+   			  margin-top: 65px;
+  		          width: 975px;
+
+			  }
+
+			  ul#c3 {
+				    position: relative;
+					} 
+			  ul#c3 li{
+                                  display: block;
+                                  position: absolute;
+                                }
+ 
+			  ul#c3 li.see {
+    				background-image: url("pic/g2.jpg");
+    				background-position: left center;
+    				background-repeat: no-repeat;
+    				height: 145px;
+    				left: 0;
+    				padding-left: 260px;
+    				padding-top: 50px;
+    				top: 260px;	
+			  }	
+	#content4{
+		background-image: url("pic/bg_cnt2.png");
+   		 background-position: center top;
+    		background-repeat: no-repeat;		
+		height: 1495px;
+   		 width: 100%;	
+		}
+
+
+		#ctn_contact{
+                          margin-left: auto;
+                          margin-right: auto;
+                          margin-top: 65px;
+                          width: 975px;
+
+                          }
+		         ul#c4 {
+				    position: relative;
+					}	
+			 ul#c4 li{
+				  display:block;
+				  position:absolute;}	
+			 ul#c4 li.contact {
+    				background-image: url("pic/g3.jpg");
+    				background-position: left center;
+    				background-repeat: no-repeat;
+    				height: 145px;
+    				left: 0;
+    				padding-left: 260px;
+    				padding-top: 50px;
+    				top: 260px;	
+			  }	
+
+
+	#content5{
+		background-image: url("pic/bg_cnt2.png");
+    		background-position: center top;
+    		background-repeat: no-repeat;	
+		height: 1495px;
+   		 width: 100%;	
+		}
+		#ctn_edu{
+                          margin-left: auto;
+                          margin-right: auto;
+                          margin-top: 65px;
+                          width: 975px;
+
+                          }
+			  
+			ul#c5 {
+			    position: relative;
+					}
+		        ul#c5 li {
+				  display: block;
+				  position: absolute;}	
+			ul#c5 li.edu {
+    				background-image: url("pic/g4.jpg");
+    				background-position: left center;
+    				background-repeat: no-repeat;
+    				height: 145px;
+    				left: 0;
+    				padding-left: 260px;
+    				padding-top: 50px;
+    			        top: 260px;	
+				}
+			h2{font-size:18px;
+	                   color:#0080ff; 
+		           }
+			p2{font-size:13px;
+		           }
+			a:link {text-decoration: none;}
+</style>
+/*
+<script>
+$(function(){
+
+$( "#menu" ).sortable();
+$( "#menu" ).disableSelection();
+
+$( "#top" ).draggable();
+$( "#content2").draggable(); 
+$( "#content3").draggable();
+$( "#content4").draggable();
+$( "#content5").draggable();
+});
+
+
+</script>
+*/
+<body>
+	<div id="content">    
+		<div id="content1">
+
+		    <div id="top"> 
+		       
+
+			   Do you know <strong>Golf?</strong> 
+		      
+		    </div>	            
+		<div id="ctn1_menu">	     
+               	 <ul id="menu">
+		
+		        <li class="m1" style="opacity: 1;">
+			 <a href="#about">About me.</a>		 
+			</li>
+    
+		 	<li class="m2" style="opacity: 1;">
+			 <a href="#see">Where you see me?</a>
+			</li>
+
+			<li class="m3" style="opacity: 1;">
+			 <a name="mu" href="#contact">How to contact me?</a>
+			</li>
+		
+			<li class="m4" style="opacity: 1;"> 
+			 <a href="#edu">Education</a> 
+			</li>	
+        	      </ul>	
+		    </div>
+		</div>	
+		<div id="content2">
+		        
+			 <a href="#mu" name="about">	
+			 <div id="ctn_about">
+			 <ul id="c2">  
+			 <li class="about">			
+		         <h2 name="about">About me.</h2></a> 
+			  <p2> My name is Worachart Chaithong.I am 22 years old.<br>
+I study in PSU Phuket Major Software Engineering.<br>
+Now,I am apprentice of XPLink Co.,Ltd.<br>
+and I'm studying html and CSS by my self. </p2> 
+			 </li>  
+			</ul>	
+			</div>		
+		</div>
+		<div id="content3">
+			 <a href="#mu" name="see">	
+			 <div id="ctn_see">
+			 <ul id="c3">    
+			 <li class="see">
+		          <h2 name="see">Where you see me?</h2></a> 
+		          <p2>Current City: Huaiyot, Trang
+			   <br>	Hometown: Huaiyot 
+			   <br> Now: Bangkok
+			  </p2>	
+			 </li>  
+			</ul>	
+			</div>	
+		</div>	
+		<div id="content4">
+			 <a href ="#mu" name="contact">	
+			 <div id="ctn_contact">
+			 <ul id="c4">   
+			 <li class="contact">	
+			  <h2 name="contact">How to contact me?</h2></a>
+		          <p2>Phone: 0856543734
+			<br>Email: worachart.golf@gmail.com </p2>	
+			 </li>	 
+			</ul>	
+			</div>
+		</div>
+		<div id="content5">
+			   <a href="#mu" name="edu">	
+			   <div id="ctn_edu">
+			   <ul id="c5"> 
+			    <li class="edu">
+			     <h2 name="edu">Education</h2></a> 
+			     <p2>
+				 High school: Huai yot school,Trang<br>	
+				 University: Prince of songkla university,Phuket campus<br>
+				 Faculty: Technology&Environment<br>
+				 Major: Software Engineering<br> 
+			    </li> 
+			   </ul>	
+			 </div>
+		</div>
+	</div>
+
+</body>
+</html>

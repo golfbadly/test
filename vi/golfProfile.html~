@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<title>what're you doing</title>
+<style>
+	body{background-image: url(gp.jpg); 
+	background-repeat: no-repeat;
+        background-size: 100%;
+ 	color: #ffffff;	
+	font-size: 25px;	
+	margin-left: 130px;
+	margin-top: 100px;}	
+
+
+ 
+
+
+
+	p{margin-left: 30px;}
+	p2{font-size: 20px;}
+
+
+	h{
+	
+	 
+	  color: yellow;	
+	  font-size: 40px;}
+
+	h2{
+
+
+	  color: orange;
+	  font-size: 25px;}
+
+</style>
+
+<body>
+
+	<h>Worachart Chaithong
+	</h>
+
+		<p><font color="#0040ff">SEX:</font> Male <br>
+        	   <font color="#ff00ff">Birthday:</font> 24/05/1992 <br>
+		   <font color="#ff8000">Current City:</font> Huaiyot, Trang <br>
+   		   <font color="#40ff00">Hometown: </font>Huaiyot <br>
+   		   <font color="#ff0000">Phone: </font>0856543734 <br>
+   		   <font color="#00ffff">Email: </font>worachart.golf@gmail.com <br>
+ 		</p>
+	<br><br>
+	<h2>About Me
+	</h2>
+		<p2>&nbsp;&nbsp; My name is Worachart Chaithong.                                   I am 22 years old. <br>
+		   I study in PSU Phuket Major Software Engineering. <br>
+		   Now,I am apprentice of XPLink Co.,Ltd. <br>
+		   and I'm studying html and CSS by my self. <br>
+		</p2>
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+</body>
+</html>
+
